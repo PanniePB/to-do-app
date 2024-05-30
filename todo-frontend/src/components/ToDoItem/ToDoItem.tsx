@@ -39,7 +39,6 @@ const TodoItem = ({
   return (
     <article className={styles.item}>
       <input
-        data-testid={optionId}
         name={name}
         type="radio"
         value={value}

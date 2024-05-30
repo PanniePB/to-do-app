@@ -31,17 +31,17 @@ const CrudModal = ({ submitFunction, closeModal }: CrudModalProps) => {
     <form
       className={styles.modal__wrap}
       onSubmit={handleSubmit(onSubmit)}
-      data-testid="crud-modal"
+     
     >
       <article className={styles.modal__article}>
-        <textarea data-testid="inputField" {...register("inputField")} />
+        <textarea  {...register("inputField")} />
       </article>
 
       <footer className={styles.modal__buttonWrap}>
-        <button type="submit" data-testid="Yes">
+        <button type="submit" >
           <FontAwesomeIcon icon={faCheck} />
         </button>
-        <button type="button" onClick={closeModal} data-testid="No">
+        <button type="button" onClick={closeModal} >
           <FontAwesomeIcon icon={faTimes} />
         </button>
       </footer>
