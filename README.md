@@ -1,12 +1,12 @@
 # TO-DO APP
 
-## MVP
-
+## DEMO
+![demo of project](demo.PNG)
 - CRUD-enabled TSX app with Spring Boot backend 
 - Polished
-- All endpoints must be error handled such that they return the correct status codes and messages.
+- All endpoints are error handled such that they return the correct status codes and messages.
 - Implement a logging strategy for requests being processed 
-- Use spring swagger 
+- Used spring swagger for documentation
 
 ## Design Goals 
 
@@ -24,3 +24,16 @@
 - Logging Strategy on back-end 
 - Service and Controller layer on back-end to handle and validate data
 - Entity and DTOs establishing title, completion status and when the item was added/last updated
+
+
+## Future Goals
+Need to add in Toast Notifications for strikethrough
+Back-end error handling needs to be improved
+Sorting by Date
+
+## CHANGE LOGS
+## 11/06/2024
+- Added testing to my logic and react components - testing
+
+TO-DO:
+- struggling to get time-out to design attractively.
